@@ -1,0 +1,14 @@
+.popup{
+    border: 2px solid blue;
+    background-color: black;
+    color:white;
+    position: absolute;
+    overflow: hidden;
+    /*transform: translateY(-50px);*/
+}
+.wrapper{
+    position: relative;
+}
+button{
+    position: relative;
+}

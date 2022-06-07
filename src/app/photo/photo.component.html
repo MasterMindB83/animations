@@ -1,0 +1,11 @@
+<div class="wrapper">
+    <div class="img">
+        <img src="assets\test.jpg" [@animated]="state">
+    </div>
+    <div class="buttons">
+        <button (click)="setState('translate')">Translate</button>
+        <button (click)="setState('rotate')">Rotate</button>
+        <button (click)="setState('scale')">Scale</button>
+        <button (click)="setState('default')">Reset</button>
+    </div>
+</div>

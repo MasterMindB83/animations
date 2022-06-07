@@ -1,0 +1,8 @@
+<div class="wrapper"  >
+    <div *ngIf=isShowMessage class="popup" [@fadeIn]="state ? 'open' : 'closed'" [style.backgroundColor]=backgroundColor [style.color]=color [style.border]=border>
+        <div>{{title}}</div>
+        <div>{{message}}</div>
+    </div>
+
+   
+</div>

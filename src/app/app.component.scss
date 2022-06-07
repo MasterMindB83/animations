@@ -1,0 +1,29 @@
+.popup{
+    position: absolute;
+    /*transform: translateY(-40px);*/
+}
+.content{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    //width: 1000px;
+    //border: 1px black solid;
+}
+.green{
+    background-color: green;
+    border: 2px solid rgb(15, 129, 15);
+}
+.yellow{
+    background-color: yellow;
+    color:black;
+    border: 2px solid rgb(158, 158, 21);
+}
+:hover.green{
+    background-color: darkgreen;
+    border: 2px solid rgb(15, 129, 15);
+}
+:hover.yellow{
+    background-color: rgb(228, 228, 19);
+    color:black;
+    border: 2px solid rgb(158, 158, 21);
+}
